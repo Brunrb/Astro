@@ -1,0 +1,27 @@
+---
+import Header from "../components/Header.astro";
+
+const pageTitle = "Sobre Nós!";
+
+const identify = {
+    name: "Galeria Pocket",
+    localizacao: "São Paulo - SP",
+    sobre: "Somos uma galeria de arte que busca promover a cultura e a arte em São Paulo. Venha nos visitar!",
+    contato: {
+        email: "pocket@galeriaverbo.com.br",
+        telefone: "(11) 96600-4951"
+    }
+}
+---
+<Header nomeDaPagina="Galeria Pocket - About"/>
+
+<body>
+
+    <h1>{identify.name}</h1>
+
+    <p>{identify.sobre}</p>
+
+
+
+</body>
+</html>
